@@ -4,6 +4,8 @@ node_js:
 dist: focal
 
 before_install:
+  - rvm use system --install --default
+  - ruby --version
   - gem install bundler
   - gem install faraday -v 1.10.0
 
