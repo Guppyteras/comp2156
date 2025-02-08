@@ -5,7 +5,8 @@ dist: focal
 
 before_install:
   - gem install bundler
-  
+  - gem install faraday -v 1.10.0
+
 deploy:
   provider: pages
   skip_cleanup: true
