@@ -2,6 +2,10 @@ language: node_js
 node_js:
   - "stable"
 dist: focal
+
+before_install:
+  - gem install bundler
+  
 deploy:
   provider: pages
   skip_cleanup: true
