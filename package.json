@@ -1,7 +1,7 @@
 {
   "name": "comp2156",
   "version": "1.0.0",
-  "description": "",
+  "description": "[![Build Status](https://app.travis-ci.com/Guppyteras/comp2156.svg?token=m8LiJynqc6cwwNY5x9pE&branch=main)](https://app.travis-ci.com/Guppyteras/comp2156)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Warnings: No tests created yet\""
